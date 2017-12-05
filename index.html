@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<!--字体图标-->
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/swiper.css">
+	<script type="text/javascript" src="./js/swiper.js"></script>
+
+	<style type="text/css">
+		
+		.swiper-button-prev{
+		background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23FFFFF3'%2F%3E%3C%2Fsvg%3E");
+		margin-left: 5%;
+		
+	}
+	.swiper-button-next{
+		background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23FFFFF3'%2F%3E%3C%2Fsvg%3E");
+		margin-right: 5%;
+		
+	}
+	
+	</style>
+
+</head>
+<body>
+		
+
+	<!--导航-->
+	
+	<nav class="nav">
+		<div class="nav-top-cont container-fluid ">
+
+			<div class="navbar-header">
+				<a class="logo1" href="http://www.yuehetong.com"></a>
+				<span class="logo2"> 专业合同服务商</span>
+			</div>
+			
+			<div id="navbar-menu">
+				<span id="top-main-menu">
+					<a href="#" class="btn">悦读</a>
+					<a href="#" class="btn">悦活动</a>
+					<a href="#" class="btn">智能合同</a>
+					<a href="#" class="btn">写合同</a>
+					<a href="#" class="btn">审合同</a>
+				</span>
+
+				<span id="top-nav-login">
+					<span class="split"></span>
+
+					<a href="#" class="btn">
+						<i class="fa fa-user-o" aria-hidden="true"></i>
+						登录
+					</a>
+
+				</span>
+			</div>
+
+		</div>
+	</nav><!--导航-->
+
+	<!--轮播图-->
+	<div class="swiper-container swiper-container-fade swiper-container-horizontal">
+	    <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 798px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+	        	<img src="https://s1.yuehetong.com/sitemedia/banner/20170726.jpg">
+	        </div>
+	        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 798px; transition-duration: 0ms; opacity: 1; transform: translate3d(-798px, 0px, 0px);">
+	        	<img src="https://s1.yuehetong.com/sitemedia/banner/20170505011.jpg">
+	        </div>
+	        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 798px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1596px, 0px, 0px);">
+	        	<img src="https://s1.yuehetong.com/sitemedia/banner/20170505012.jpg">
+	        </div>
+	        <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 798px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2394px, 0px, 0px);">
+	        	<img src="https://s1.yuehetong.com/sitemedia/banner/20170726.jpg">
+	        </div>
+	    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 798px; transition-duration: 0ms; opacity: 0; transform: translate3d(-3192px, 0px, 0px);">
+	        	<img src="https://s1.yuehetong.com/sitemedia/banner/20170505011.jpg">
+	        </div></div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+	    
+	    <!-- 如果需要导航按钮 -->
+	    <div class="swiper-button-prev"></div>
+	    <div class="swiper-button-next"></div>
+	    
+	    
+	</div>
+
+	<!--轮播图-->
+
+	<!--搜索框-->
+	<div class="search-index">
+		
+	</div>
+	<!--搜索框-->
+
+
+
+
+
+
+
+<script>        
+	  
+    var swiper = new Swiper('.swiper-container', {
+      
+      spaceBetween: 0,
+      autoplay: true,
+      effect: 'fade',
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+       
+	  </script>
+
+
+
+	
+</body>
+</html>

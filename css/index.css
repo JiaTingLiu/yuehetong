@@ -1,0 +1,136 @@
+body{
+	font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,
+				 "Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",
+				  FontAwesome,sans-serif;
+	background: #f5f5f5;
+	padding: 0;
+	margin: 0;
+}
+
+a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn:active:focus,.btn:focus,.btn.active,.btn:active {
+ text-decoration:none;
+ outline:0;
+ box-shadow:none;
+ -webkit-box-shadow:none
+}
+
+.nav{
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.nav-top-cont{
+	height: 115px;
+	line-height: 115px;
+	padding-left: 80px;
+	background: #fff;
+}
+
+#navbar-menu{
+	display: block;
+	float: right;
+	height: 115px;
+	line-height: 115px;
+}
+
+#navbar-menu #top-nav-bt{
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top: -3px;
+}
+
+#navbar-menu .btn{
+	
+}
+
+#navbar-menu a {
+	color: #555;
+	padding: 3px 10px; 
+	font-size: 1.14em;
+	margin: 0 3px;
+}
+
+
+#navbar-menu a:hover {
+	 background: #35c1ec;
+	 border-radius: 6px;
+	 color: #fff;
+}
+#navbar-menu a.sel {
+	
+}
+#navbar-menu a.top-notice,#navbar-menu a.top-notice:hover {
+	
+}
+
+
+#navbar-menu .split{
+	display: inline-block;
+	margin: 0 5px;
+	border-left: 1px solid #555;
+	color: #555;
+	
+	height: 25px;
+	vertical-align: middle;
+}
+
+.logo1{
+	width: 195px;
+	height: 80px;
+	margin-top: 5px;
+	
+	background: url(https://s1.yuehetong.com/sitemedia/pics/yue-sprit001.png) no-repeat 0px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo2{
+	font-size: 1.8em;
+	padding-left: 10px;
+	font-weight: 100;
+	color: #35c1ec;
+	vertical-align: middle;
+	margin:0;
+	line-height: 115px;
+}
+
+
+.search-index{
+	height: 150px;
+	background: url('https://s1.yuehetong.com/sitemedia/pics/s_bg.jpg');
+	background-repeat: repeat; 
+}
+
+
+
+
+ .swiper-container {
+      width: 100%;
+      height: 260px;
+      
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+	
+    .swiper-slide img{
+    	height: 100%;
+    	width: 100%;
+    }
