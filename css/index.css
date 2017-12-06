@@ -100,8 +100,24 @@ a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus
 	background: url('https://s1.yuehetong.com/sitemedia/pics/s_bg.jpg');
 	background-repeat: repeat; 
 }
+.s-inner{
+	margin-top: 25px;
+}
+#search-key{
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	height: 53px;
+	box-shadow: none;
+	border: 0;
+}
 
-
+#search-btn{
+	height: 53px;
+	width: 112px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background: #fdd26d url(https://s1.yuehetong.com/sitemedia/pics/yue-sprit001.png) 50% -125px no-repeat;
+}
 
 
  .swiper-container {
