@@ -7,6 +7,7 @@ body{
 	margin: 0;
 }
 
+
 a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn:active:focus,.btn:focus,.btn.active,.btn:active {
  text-decoration:none;
  outline:0;
@@ -254,3 +255,77 @@ a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus
 	background: #baa1e2 url("../img/yue-sprit004.png") no-repeat 25px -365px
 }
 
+.clearfix{
+	clear: both;
+}
+
+.main-body{
+	padding: 2em 2em 3em 2em;
+	color: #666;
+}
+
+.busrow{
+	background: #fff;
+}
+
+.m-h2{
+	font-size: 1.6em;
+	text-align: center;
+}
+.m-h2-mb{
+	margin: 2em 0;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.row a:hover{
+	color: #555;
+}
+.busblock{
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	height: 280px;
+	margin-top: 15px;
+	border: 1px solid #ddd;
+	color: #555;	
+}
+.buspicblock{
+	color: #fff;
+	padding: 1.5em 0;
+	border: 1px solid #fff;
+}
+.buspicblock p{
+	font-size: 1.1em;
+}
+.busblock h2{
+	font-size: 1.3em;
+	margin:15px 0 10px 0;
+}
+
+.busblock i{
+	font-size: 2.5em;
+	font-weight: 100;
+	color: #fff;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	border: 1px solid;
+	margin-bottom: 0.3em;
+	border-radius: 50%;
+	line-height: 80px;
+}
+.busblock p{
+	margin:0;
+}
+
+.busblock b{
+	color: #f97b39;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+.busblock .price-y{
+	color: #777;
+	text-decoration: line-through;
+}
