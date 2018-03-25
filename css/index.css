@@ -272,6 +272,10 @@ a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus
 	font-size: 1.6em;
 	text-align: center;
 }
+.m-h2 b{
+	color: #39a1ff;
+	font-weight: normal;
+}
 .m-h2-mb{
 	margin: 2em 0;
 }
@@ -424,4 +428,37 @@ a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus
 	padding-top: 4px;
 	height: 200px;
 	border-left: 1px dashed #ccc;
+}
+
+.main-body2{
+	background: url("../img/ent-bg.jpg");
+	padding: 2em 0 4em 0;
+}
+.m-brand,.c-brand{
+	display:inline-block;
+ 	vertical-align:top;
+ 	overflow:hidden;
+ 	width:16.666667%;
+ 	height:auto;
+ 	border:1px solid #bababa;
+ 	margin-left:-4.5px;
+ 	margin-top:-0.5px;
+ 	background:#fff;
+ 	cursor:pointer
+}
+.m-brand img,.c-brand img {
+ width:100%;
+ height:auto;
+ -webkit-transition:all .6s cubic-bezier(.19,1,.22,1);
+ transition:all .6s cubic-bezier(.19,1,.22,1)
+}
+.m-brand img:hover,.c-brand img:hover {
+ -webkit-transform:scale(1.08);
+ transform:scale(1.08)
+}
+.m-brand img.gray {
+ -webkit-filter:grayscale(100%);
+ -webkit-filter:grayscale(1);
+ filter:grayscale(100%);
+ filter:gray
 }
