@@ -5,15 +5,15 @@
 	
 	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<meta charset="utf-8">
 	<!--字体图标-->
 	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<script type="text/javascript" src="./js/bootstrap.js"></script>
-	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
 	<script type="text/javascript" src="./js/swiper.js"></script>
-
+	
 	<style type="text/css">
 		
 		.swiper-button-prev{
@@ -26,6 +26,21 @@
 		margin-right: 5%;
 		
 	}
+
+	.swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      text-align: center;
+      line-height: 10px;
+      font-size: 12px;
+      color:#000;
+      opacity: 1;
+      background: #F1A179;
+    }
+    .swiper-pagination-bullet-active {
+      color:#fff;
+      background: #007AFF;
+    } 
 
 	body{
 		background-color: #f5f5f5;
@@ -72,7 +87,8 @@
 
 	<!--轮播图-->
 	<div class="swiper-container swiper-container-fade swiper-container-horizontal">
-	    <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 798px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+	    <div class="swiper-wrapper" style="transition-duration: 0ms;">
+	    	<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 798px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
 	        	<img src="https://s1.yuehetong.com/sitemedia/banner/20170726.jpg">
 	        </div>
 	        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 798px; transition-duration: 0ms; opacity: 1; transform: translate3d(-798px, 0px, 0px);">
@@ -393,7 +409,86 @@
 	</div>
 	<!--优势-->
 
+	
+	<!--新闻-->
+	<div class="container">
+		<div class="row news-area">
+			<!--左侧板块-->
+			<div class="col-sm-6 news-area-l">
+				<!--轮播图-->
+				<div class="col-sm-6">
+					
+    				<div class="swiper-container-news swiper-container-fade swiper-container-horizontal" 
+    						id="swiper2">
+				       <div class="swiper-wrapper">
+				            <div class="swiper-slide">
+				                <img src="./img/news_pic1.jpg">
+				            </div>
+				            <div class="swiper-slide">
+				                <img src="./img/news_pic2.jpg">
+				            </div>
+				            <div class="swiper-slide">
+				                <img src="./img/news_pic3.jpg">
+				            </div>
+				            <div class="swiper-slide">
+				                <img src="./img/news_pic4.jpg">
+				            </div>
+				            <div class="swiper-slide">
+				                <img src="./img/news_pic5.jpg">
+				            </div>
+				      
+				   		</div>
+				   		<!-- 如果需要分页器 -->
+				        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+				        	<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+				        	<span class="swiper-pagination-bullet"></span>
+				        	<span class="swiper-pagination-bullet"></span>
+				        </div>
+					</div>
+				</div>
 
+				<!--悦活动-->
+				<div class="col-sm-6">
+					<h2 class="m-h2"><a href="#" style="text-decoration: none; color: #239">悦活动</a></h2>
+					<ul class="eve-ul">
+						<li><a href="#" >悦合同成为广东文投创工场的法务服务商</a></li>
+						<li><a href="#" >恭喜！恭喜悦合同项目荣获第三届中国青年APP大赛创意组银奖！</a></li>
+						<li><a href="#" >悦合同在《创客英雄会》上台领奖</a></li>
+					</ul>
+				</div>
+				<!--清除浮动-->
+				<div clearfix></div>
+			</div>
+			
+			<!--右侧板块-->
+			<div class="col-sm-6 news-area-r">
+				<!--悦读-->
+				<div class="col-sm-6">
+					<h2 class="m-h2"><a href="#" style="text-decoration: none; color: #239">悦读</a></h2>
+					<ul class="eve-ul">
+						<li><a href="#" >成功辩护！破坏共享单车男子获最低刑三年</a></li>
+						<li><a href="#" >如何理解“公司归谁所有”？</a></li>
+						<li><a href="#" >合同事先约定到哪里打官司？</a></li>
+					</ul>
+				</div>
+
+				<!--最右边一列-->
+				<div class="col-sm-6 news-yb-last">
+					<ul class="eve-ul">
+						<li><a href="#" >谈谈公司控制权的设计</a></li>
+						<li><a href="#" >经理由股东会产生，会导致无效！</a></li>
+						<li><a href="#" >期权诊断报告，告诉你应该注意的点</a></li>
+						<li><a href="#" >委托开发和合作开发，有着重大的区别</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+	<!--新闻-->
 
 
 
@@ -414,9 +509,25 @@
         prevEl: '.swiper-button-prev',
       },
     });
-       
-	  </script>
-
+      
+</script>
+ <script>
+    var swiper2 = new Swiper('.swiper-container-news', {
+         
+      spaceBetween: 0,
+      autoplay: true,
+      effect: 'fade',
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
 
 
 	

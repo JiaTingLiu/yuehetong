@@ -26,6 +26,20 @@
         margin-right: 5%;
         
     }
+     .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color:#000;
+      opacity: 1;
+      background: rgba(0,0,0,0.2);
+    }
+    .swiper-pagination-bullet-active {
+      color:#fff;
+      background: #007aff;
+    }
 
     body{
         background-color: #f5f5f5;
@@ -60,7 +74,7 @@
                     <span class="split"></span>
 
                     <a href="#" class="btn">
-                        <i class="fa fa-qq" aria-hidden="true"></i>
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
                         登录
                     </a>
 
@@ -70,36 +84,56 @@
         </div>
     </nav><!--导航-->
 
-   
+<div style="width: 25%">
+    
 
-  
-
-
-
-   
-
-
-
-
-<script>        
+    <!--轮播图-->
+    <div class="swiper-container-news swiper-container-fade swiper-container-horizontal">
+       <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://s1.yuehetong.com/article_att/images/day_171227/201712271403109706.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://s1.yuehetong.com/article_att/images/day_171227/201712271403109706.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://s1.yuehetong.com/article_att/images/day_171227/201712271403109706.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://s1.yuehetong.com/article_att/images/day_171227/201712271403109706.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://s1.yuehetong.com/article_att/images/day_171227/201712271403109706.png">
+            </div>
       
-    var swiper = new Swiper('.swiper-container', {
-      
-      spaceBetween: 0,
-      autoplay: true,
-      effect: 'fade',
-      loop: true,
+    </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+        
+       
+        
+        
+    </div>
+
+    <!--轮播图-->
+
+  </div>  
+
+
+
+ <script>
+    var swiper = new Swiper('.swiper-container-news', {
+         autoplay: true,
       pagination: {
         el: '.swiper-pagination',
+
         clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
       },
     });
-       
-      </script>
+</script>
 
 
 
