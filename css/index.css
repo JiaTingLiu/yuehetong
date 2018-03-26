@@ -446,11 +446,14 @@ a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus
  	background:#fff;
  	cursor:pointer
 }
+.c-brand{
+	border: none;
+}
 .m-brand img,.c-brand img {
  width:100%;
  height:auto;
  -webkit-transition:all .6s cubic-bezier(.19,1,.22,1);
- transition:all .6s cubic-bezier(.19,1,.22,1)
+ transition:all .6s cubic-bezier(.19,1,.22,1);
 }
 .m-brand img:hover,.c-brand img:hover {
  -webkit-transform:scale(1.08);
