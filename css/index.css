@@ -465,3 +465,35 @@ a:link,a:focus,a:active,a:visited,.btn.active.focus,.btn.active:focus,.btn.focus
  filter:grayscale(100%);
  filter:gray
 }
+
+footer{
+	background: #efefef;
+	color: #7a7a7a;
+	padding-bottom: 40px;
+	height: auto;
+}
+.footer-menu{
+	margin: 1.5em 0 1em 0;
+
+}
+#footer-in{
+	position: relative;
+}
+.ftitle{
+	color: #333;
+	font-size: 1.2em;
+}
+.footer-a{
+	display: block;
+	color: #7a7a7a;
+	margin: .5em 0;
+}
+footer .cp{
+	text-align: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;	
+}
+.cp p{
+	margin: 0 0 10px;
+}
